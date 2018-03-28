@@ -1,0 +1,55 @@
+<head>
+    <title>Login Helper</title>
+    <script src="jquery.min.js"></script>
+    <script src="socket.io.js"></script>
+    <script src="popup.js"></script>
+    <style>
+        body{
+            height: auto;
+            background: rgb(255, 255, 255);
+        }
+        h2 {
+            width: 100px;
+            color: navy;
+        }
+        div {
+            margin: 10px;
+        }
+
+        button {
+            height: 40px;
+            width: 100%;
+            background: whitesmoke;
+            border: 3px solid navy;
+            color: navy;
+            border-radius: 5px;
+            transition: all 0.2s ease-in
+        }
+
+        button:hover{
+            background: blueviolet;
+            color: whitesmoke;
+        }
+        .codebox {
+            height: 50px;
+            width: 110px;
+            background: #eeeeee;
+            padding: 10px;
+            font-size: 15px;
+            margin-bottom:10px;
+            padding:10px;;  
+            border: 1px solid navy;
+        }
+
+        .blank {
+            height: 20px;
+        }
+
+    </style>
+    <body>
+        <div><h2>Login</h2></div>
+        <div><button id= "start">Start Identify</button></div>
+        <div class="codebox">This is a message box</div>
+        <div class="blank"></div>
+    </body>
+</head>

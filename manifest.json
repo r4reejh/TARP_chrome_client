@@ -1,0 +1,13 @@
+{
+  "name": "Login Helper for the FP authentication system",
+  "description": "Login using your fingerprint",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "Login Helper",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
